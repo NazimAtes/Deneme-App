@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Word Pool</string>
+    <string name="yabanci_kelime">Foreign Word</string>
+    <string name="ceviri">Translation</string>
+    <string name="ornek_cumle">Example Sentence</string>
+    <string name="kaydet">Save</string>
+    <string name="goster">Show</string>
+    <string name="gizle">Hide</string>
+    <string name="duzenle">Edit</string>
+    <string name="en_basa">Move to Top</string>
+    <string name="sil">Delete</string>
+    <string name="arama_placeholder">Search word...</string>
+    <string name="hata_bos_alan">Please fill required fields!</string>
+    <string name="kelime_silindi">Word deleted</string>
+    <string name="dil_secimi">Language Selection</string>
+</resources>

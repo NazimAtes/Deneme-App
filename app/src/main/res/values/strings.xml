@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Kelime Havuzu</string>
+    <string name="yabanci_kelime">Yabancı Kelime</string>
+    <string name="ceviri">Çeviri</string>
+    <string name="ornek_cumle">Örnek Cümle</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="goster">Göster</string>
+    <string name="gizle">Gizle</string>
+    <string name="duzenle">Düzenle</string>
+    <string name="en_basa">En Başa</string>
+    <string name="sil">Sil</string>
+    <string name="arama_placeholder">Kelime ara...</string>
+    <string name="hata_bos_alan">Lütfen zorunlu alanları doldurun!</string>
+    <string name="kelime_silindi">Kelime silindi</string>
+    <string name="dil_secimi">Dil Seçimi</string>
+</resources>

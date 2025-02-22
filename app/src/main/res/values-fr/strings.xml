@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pool de Mots</string>
+    <string name="yabanci_kelime">Mot Étranger</string>
+    <string name="ceviri">Traduction</string>
+    <string name="ornek_cumle">Exemple de Phrase</string>
+    <string name="kaydet">Enregistrer</string>
+    <string name="goster">Afficher</string>
+    <string name="gizle">Cacher</string>
+    <string name="duzenle">Modifier</string>
+    <string name="en_basa">Déplacer en Haut</string>
+    <string name="sil">Supprimer</string>
+    <string name="arama_placeholder">Rechercher un mot...</string>
+    <string name="hata_bos_alan">Veuillez remplir les champs obligatoires!</string>
+    <string name="kelime_silindi">Mot supprimé</string>
+    <string name="dil_secimi">Sélection de la Langue</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wörter Pool</string>
+    <string name="yabanci_kelime">Fremdwort</string>
+    <string name="ceviri">Übersetzung</string>
+    <string name="ornek_cumle">Beispielsatz</string>
+    <string name="kaydet">Speichern</string>
+    <string name="goster">Zeigen</string>
+    <string name="gizle">Verstecken</string>
+    <string name="duzenle">Bearbeiten</string>
+    <string name="en_basa">Nach oben</string>
+    <string name="sil">Löschen</string>
+    <string name="arama_placeholder">Wort suchen...</string>
+    <string name="hata_bos_alan">Bitte Pflichtfelder ausfüllen!</string>
+    <string name="kelime_silindi">Wort gelöscht</string>
+    <string name="dil_secimi">Sprachauswahl</string>
+</resources>

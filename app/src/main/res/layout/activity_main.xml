@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Tema ve Dil Butonları -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnTema"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_night" />
+
+        <ImageButton
+            android:id="@+id/btnDil"
+            android:layout_width="15dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_language" />
+    </LinearLayout>
+
+    <!-- Kelime Ekleme Alanı -->
+    <EditText
+        android:id="@+id/etYabanci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yabancı Kelime *"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/etCeviri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Çeviri *"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/etOrnek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Örnek Cümle"
+        android:inputType="textCapSentences"/>
+
+    <Button
+        android:id="@+id/btnKaydet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:backgroundTint="#4CAF50"/>
+
+    <!-- Arama Çubuğu -->
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Kelime Ara..."/>
+
+    <!-- Kelime Listesi -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvKelimeler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
